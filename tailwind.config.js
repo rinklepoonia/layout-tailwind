@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 
-  content: ["./dist/**/*.{html,js}"],
+  content: [".//**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
-       'Work-Sans' :["Work-Sans", "sarif"]
+        'Work Sans': "'Work Sans', 'sans-serif'",
       }
     },
   },
